@@ -1,3 +1,7 @@
+# Leetcode
+# 2.Add two numbers
+
+
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:
         potions.sort()
@@ -10,4 +14,5 @@ class Solution:
                 continue
             index = bisect.bisect_left(potions, required_strength)
             result.append(potion_count - index)
+
         return result
