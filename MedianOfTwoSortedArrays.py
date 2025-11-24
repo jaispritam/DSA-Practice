@@ -1,3 +1,6 @@
+# leet coode
+# 4. Medial of to sorted array
+
 from typing import List, Optional
 class Solution:
     def findMedianSortedArrays(
@@ -31,4 +34,5 @@ class Solution:
         else:
             for _ in range((m + n) // 2):
                 _ = get_min()
+
             return get_min()
