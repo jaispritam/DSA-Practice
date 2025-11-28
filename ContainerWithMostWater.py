@@ -1,3 +1,4 @@
+# Leetcode
 class Solution:
     def maxArea(self, height: list[int]) -> int:
         i = 0
@@ -12,3 +13,4 @@ class Solution:
                 j -= 1
 
         return res
+
