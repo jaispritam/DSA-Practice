@@ -10,6 +10,7 @@ class Solution(object):
         closest_sum = float('inf')
         min_diff = float('inf')
 
+
         for i in range(len(nums) - 2):
             left, right = i + 1, len(nums) - 1
 
@@ -28,3 +29,4 @@ class Solution(object):
 
 
         return closest_sum
+
